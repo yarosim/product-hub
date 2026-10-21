@@ -1,9 +1,25 @@
 /**
- * Product Hub catalog.
- * Update URLs when new Stripe links or landing pages go live.
- * Keep names short so they fit in video descriptions.
+ * Product Hub catalog — live links only.
  */
 window.PRODUCTS = [
+  {
+    name: "N-400 Interview Day Binder",
+    channel: "MyPathwayUSA",
+    desc: "Printable organizer for naturalization interview docs, trips, addresses. Official USCIS checklist-based.",
+    price: 9,
+    url: "https://yarosim.github.io/n400-interview-binder/",
+    cta: "Get the binder",
+    external: true
+  },
+  {
+    name: "Free Interview Guides",
+    channel: "MyPathwayUSA",
+    desc: "Practice material that pairs with the N-400 binder.",
+    price: 0,
+    url: "https://yarosim.github.io/immigration-interview-guides/",
+    cta: "Get free guides",
+    external: true
+  },
   {
     name: "The Steady Room Boundaries Workbook",
     channel: "Steady Room",
@@ -16,7 +32,7 @@ window.PRODUCTS = [
   {
     name: "Holiday Boundaries Text Pack (free)",
     channel: "Steady Room",
-    desc: "20 calm copy-paste messages for family & in-laws. Lead magnet.",
+    desc: "20 calm copy-paste messages for family & in-laws.",
     price: 0,
     url: "https://yarosim.github.io/the-steady-room/#free",
     cta: "Get free pack",
@@ -25,46 +41,19 @@ window.PRODUCTS = [
   {
     name: "Family Emergency Call Plan",
     channel: "Family",
-    desc: "$7 practical plan — now live (page fixed). Needs placement in descriptions.",
+    desc: "$7 practical plan — page live.",
     price: 7,
-    url: "https://yarosim.github.io/voice-isnt-proof",
+    url: "https://yarosim.github.io/voice-isnt-proof/",
     cta: "Get the plan",
     external: true
   },
   {
-    name: "N-400 Binder (MyPathwayUSA)",
-    channel: "MyPathwayUSA",
-    desc: "Citizenship application binder. Live checkout.",
-    price: 9,
-    url: "https://yarosim.github.io/",
-    cta: "View product",
-    external: true
-  },
-  {
-    name: "14-day Journal (Stories That Heal)",
-    channel: "Stories That Heal",
-    desc: "Faith / reflection journal. Pair with Shorts that are already growing.",
-    price: 7,
-    url: "https://yarosim.github.io/",
-    cta: "View product",
-    external: true
-  },
-  {
-    name: "Home Lab Workbook (CS101)",
+    name: "CS101 / Home Lab",
     channel: "Cyber Security 101",
-    desc: "Practical home lab setup guide.",
+    desc: "Practical security kits and home-lab workbook landing.",
     price: 12,
     url: "https://yarosim.github.io/cyber-security-101/",
-    cta: "View CS101 store",
-    external: true
-  },
-  {
-    name: "Money Moves Workbook",
-    channel: "MoneyWiseMastery",
-    desc: "Practical money / inflation workbook.",
-    price: 9,
-    url: "https://yarosim.github.io/",
-    cta: "View product",
+    cta: "Open CS101",
     external: true
   },
   {
